@@ -29,4 +29,9 @@ for each class. However, according to the paper, EIF and iForest are sensitive t
 the number of anomalies. A problem with too many anomalies can be an issue. It could be interesting
 to see how they would perform when reducing the percentage of anomalies at training time. 
 
+
+In data folder, we add the data used in our SPAM Collection Dataset experiments. 
+Embeddings are given with XLM-en with 2048 dimensions. We have used a MAX_LEN parameter
+which in this case is either 20 or 40 tokens. (not sure which one was used here)  
+
 2. Add more examples in NLP here. 
