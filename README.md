@@ -30,7 +30,7 @@ the number of anomalies. A problem with too many anomalies can be an issue. It c
 to see how they would perform when reducing the percentage of anomalies at training time. 
 
 ## Results: 
-They have rather poor performance on high dimensional input data. Best performance is obtained with iForest after UMAP projection of the dataset.  
+They have rather poor performance on high dimensional input data. Best performance is obtained with iForest after UMAP projection of the train and test data.  
 
 
 In data folder, we add the data used in our SPAM Collection Dataset experiments. 
