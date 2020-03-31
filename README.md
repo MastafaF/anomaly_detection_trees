@@ -29,6 +29,9 @@ for each class. However, according to the paper, EIF and iForest are sensitive t
 the number of anomalies. A problem with too many anomalies can be an issue. It could be interesting
 to see how they would perform when reducing the percentage of anomalies at training time. 
 
+## Results: 
+They have rather poor performance on high dimensional input data. Best performance is obtained with iForest after UMAP projection of the dataset.  
+
 
 In data folder, we add the data used in our SPAM Collection Dataset experiments. 
 Embeddings are given with XLM-en with 2048 dimensions. We have used a MAX_LEN parameter
